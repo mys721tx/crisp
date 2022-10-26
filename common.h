@@ -2,9 +2,11 @@
 #define INC_common_H
 
 #include <stdio.h>
-#include<math.h>
-#include<stdlib.h>
-#include<string.h>
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include "parsebam/readfasta.h"
+#include "indels/realignment.h"
 
 extern int EMflag; // if this is 1, then we use new crisp EM method, otherwise old method
 
